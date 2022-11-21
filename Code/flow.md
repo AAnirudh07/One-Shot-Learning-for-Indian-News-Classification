@@ -17,4 +17,4 @@
 
 4. Train the siamese network on the few shots
 
-4. Pass the feature vectors from the last dense layer to the BERT model and perform classification (real/fake)
+5. Pass the feature vectors from the last dense layer to the BERT model and perform classification (real/fake)
