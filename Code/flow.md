@@ -1,8 +1,8 @@
 1. Collect a set of datasets with the following specifications:
 
             a. One-Shot: One headline per class (real & fake) along with their corresponding english translation
-            b. Five-Shot: One headline per class (real & fake) along with their corresponding english translation
-            c. Ten-Shot: One headline per class (real & fake) along with their corresponding english translation
+            b. Three-Shot: One headline per class (real & fake) along with their corresponding english translation
+            c. Five-Shot: One headline per class (real & fake) along with their corresponding english translation
 
 2. Perform some basic pre-processing on the mini-corpus:
 
