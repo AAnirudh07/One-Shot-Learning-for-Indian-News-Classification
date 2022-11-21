@@ -1,0 +1,3 @@
+One Shot Learning and Siamese Networks in Keras: https://sorenbouma.github.io/blog/oneshot/
+One Shot Learning with Siamese Networks in PyTorch: https://hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e
+Facial Similarity with Siamese Networks: https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch
