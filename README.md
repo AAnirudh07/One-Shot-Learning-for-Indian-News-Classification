@@ -1,1 +1,1 @@
-# Few-Shot-Siamese-Networks-for-Indian-Language-Text-Classification
+# One-Shot-Learning-for-Indian-News-Classification
