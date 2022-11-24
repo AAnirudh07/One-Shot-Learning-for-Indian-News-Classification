@@ -31,7 +31,7 @@ For testing, we passed the trained word-embeddings to an untrained random-forest
 </p>
 
 ### Metrics
-Our proposed solution saw a huge improvement in the accuracy of classifying Tamil news headlines as real or fake.
+To showcase the robustness of our model, we classified Tamil news headlines as real or fake. Our proposed solution saw a huge improvement in the accuracy of classifying Tamil news headlines.
 <div align='center'>
 
 | Model                                   | Accuracy |
