@@ -13,18 +13,18 @@ To faciliate the above, we used a siamese network with the RoBERTa model our bas
 </div>
 <br>
 <div style="text-align: justify">
-The central aspect of our contribution is the development of a siamese network that modifies the feature vectors of a new, unknown langauge so that it resembles the feature vector of it's corresponding english version. Incorporating one-shot learning into our proposed solution makes it all the more usable for real-world use-cases due to the dearth of available data.</div>
+The central aspect of our contribution is the development of a siamese network that modifies the feature vector of a new, unknown langauge so that it resembles the feature vector of it's corresponding english version. Incorporating one-shot learning into our proposed solution makes it all the more usable for real-world use-cases due to the dearth of available data.</div>
 
 
 ### Model Architecture
 <div style="text-align: justify">
-Our proposed solution for one-shot indian news classification consists of two separate architectures for training and testing. During the training phase, we employ a Siamese Network to construct word-embeddings. This siamese network extracts feature vectors from the RoBERTa autoencoder(AE) and passes it to a mean pooling layer. Following which, the feature vectors are passed through three fully connected layers to finally obtain a vector with 64 features.
+Our proposed solution consists of two separate architectures for training and testing. During the training phase, we employ a siamese network to construct word-embeddings. This siamese network extracts feature vectors from the RoBERTa autoencoder(AE) and passes it to a mean pooling layer. Following which, the feature vectors are passed through three fully connected layers to finally obtain a vector with 64 features.
 </div>
 <p align='center'>
   <img src='https://github.com/AAnirudh07/One-Shot-Learning-for-Indian-News-Classification/blob/main/Code/assets/Siamese-Network-Training.png' style='height: 40%'>
 </p>
 <div style="text-align: justify">
-For testing, we passed the trained word-embeddings to an untrained random-forest classifier for fake news detection. Essentially, after tuning the word-embeddings, any compatible machine learning/deep learning model can be used.
+For testing, we pass the trained word-embeddings to an untrained random-forest classifier for fake news detection. Essentially, after tuning the word-embeddings, any compatible machine learning/deep learning model can be used.
 </div>
 <p align='center'>
   <img src='https://github.com/AAnirudh07/One-Shot-Learning-for-Indian-News-Classification/blob/main/Code/assets/One-Shot-RF.png' style='height: 40%'>
