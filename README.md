@@ -11,6 +11,9 @@ Our proposed solution attempts to alleviate the problem of training SOTA NLP cla
 <div style="text-align: justify">
 To faciliate the above, we used a siamese network with the RoBERTa model our base SOTA NLP model. On top of RoBERTa, we used a pooling layer and three dense layers. This siamese network was trained on just <b>one instance</b> per class of the <a href='https://github.com/AAnirudh07/Fake-News-Headlines-In-Tamil'>Tamil Fake News Dataset</a>. After training, these word embeddings were used to train a random-forest model for fake news classification. 
 </div>
+<br>
+<div style="text-align: justify">
+The central aspect of our contribution is the development of a siamese network that modifies the feature vectors of a new, unknown langauge so that it resembles the feature vector of it's corresponding english version. Incorporating one-shot learning into our proposed solution makes it all the more usable for real-world use-cases due to the dearth of available data.</div>
 
 
 ### Model Architecture
